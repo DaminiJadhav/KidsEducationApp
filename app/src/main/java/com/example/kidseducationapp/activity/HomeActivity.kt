@@ -32,14 +32,14 @@ class HomeActivity : AppCompatActivity() {
         gridiew=findViewById(R.id.home_grid_view) as GridView
 
 
-        foodsList.add(LearnerItems("A to Z", R.drawable.iv_atoz))
-        foodsList.add(LearnerItems("1 to 100", R.drawable.iv_1to100))
-        foodsList.add(LearnerItems("Colors", R.drawable.iv_colors))
-        foodsList.add(LearnerItems("Fruits", R.drawable.i_fruits))
-        foodsList.add(LearnerItems("Flowers",R.drawable.iv_flowers))
-        foodsList.add(LearnerItems("Animals",R.drawable.iv_animals))
-        foodsList.add(LearnerItems("Birds",R.drawable.i_birds))
-        foodsList.add(LearnerItems("Vegetables",R.drawable.i_vegatables))
+        foodsList.add(LearnerItems("A to Z", R.mipmap.iv_atoz))
+        foodsList.add(LearnerItems("1 to 100", R.mipmap.iv_1to100))
+        foodsList.add(LearnerItems("Colors", R.mipmap.iv_colors))
+        foodsList.add(LearnerItems("Fruits", R.mipmap.i_fruits))
+        foodsList.add(LearnerItems("Flowers",R.mipmap.iv_flowers))
+        foodsList.add(LearnerItems("Animals",R.mipmap.iv_animals))
+        foodsList.add(LearnerItems("Birds",R.mipmap.i_birds))
+        foodsList.add(LearnerItems("Vegetables",R.mipmap.i_vegatables))
 
 
         adapter = CustomAdapter(this, foodsList)
